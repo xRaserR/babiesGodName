@@ -5,10 +5,10 @@ import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: '/babiesGodNames',
     children: [
-      { path: 'babiesGodNames', component: HomeComponent },
-      { path: 'babiesGodNames/childNames/:gender', component: ChildNameComponent }]
+      { path: '', component: HomeComponent },
+      { path: 'childNames/:gender', component: ChildNameComponent }]
   }
 ];
 

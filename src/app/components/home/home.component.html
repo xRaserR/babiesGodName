@@ -1,36 +1,48 @@
 <div class="hero-image">
     <div class="hero-text">
-        <h1 style="font-size:50px">I am JoyBoy</h1>
+        <h1 style="font-size:50px">I'm mama's baby</h1>
         <h3>
             Choosing the perfect name for your baby may seem like a tough decision, especially with so many options
             floating around. Choose from our collection of baby boy names and baby girl names which let’s you get as
             specific as you want, so you choose a unique, yet meaningful name for your little one!
         </h3>
-        <div class="gender_tabs left">
-            <ul class="">
-                <li class="left girl_tab">
-                    <div class="gender_box">
-                        <div class="gender_image_cont"><img
-                                src="https://cdn.cdnparenting.com/articles/babynameimages/desk_babygirl.svg" alt=""
-                                title=""></div><span class="R14_75">GIRL</span>
+        <div class="alphabet_block">
+            <div class="search_name search_name_starts_with">
+                <div class="search_container">
+                    <div class="gender_tabs left">
+                        <ul class="">
+                            <li class="left girl_tab" (click)="childNameFunction('girl')">
+                                <div class="gender_box">
+                                    <div class="gender_image_cont">
+                                        <img src="https://cdn.cdnparenting.com/articles/babynameimages/desk_babygirl.svg"
+                                            alt="" title="">
+                                    </div>
+                                    <span class="R14_75">GIRL</span>
+                                </div>
+                            </li>
+                            <li class="left boy_tab" (click)="childNameFunction('boy')">
+                                <div class="gender_box">
+                                    <div class="gender_image_cont">
+                                        <img src="https://cdn.cdnparenting.com/articles/babynameimages/desk_babyboy.svg"
+                                            alt="" title="">
+                                    </div>
+                                    <span class="R14_75">BOY</span>
+                                </div>
+                            </li>
+                            <li class="left unisex_tab" (click)="childNameFunction('unisex')">
+                                <div class="gender_box">
+                                    <div class="gender_image_cont">
+                                        <img src="https://cdn.cdnparenting.com/articles/babynameimages/unisex.svg"
+                                            alt="" title="">
+                                    </div>
+                                    <span class="R14_75">UNISEX</span>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                </li>
-                <li class="left boy_tab">
-                    <div class="gender_box">
-                        <div class="gender_image_cont"><img
-                                src="https://cdn.cdnparenting.com/articles/babynameimages/desk_babyboy.svg" alt=""
-                                title=""></div><span class="R14_75">BOY</span>
-                    </div>
-                </li>
-                <li class="left unisex_tab">
-                    <div class="gender_box">
-                        <div class="gender_image_cont"><img
-                                src="https://cdn.cdnparenting.com/articles/babynameimages/unisex.svg" alt="" title="">
-                        </div><span class="R14_75">UNISEX</span>
-                    </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </div>
-    <p>reference : https://parenting.firstcry.com/baby-names/</p>
+    <!-- <p>reference : https://parenting.firstcry.com/baby-names/</p> -->
 </div>

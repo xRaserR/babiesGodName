@@ -9,10 +9,12 @@ import { Router, ActivatedRoute } from '@angular/router';
 
 
 export class HomeComponent {
+  genderValue: string = '';
   constructor(public router: Router, public route: ActivatedRoute) { }
 
   childNameFunction(args: string): void {
+    this.genderValue = args;
     console.log(args);
-    this.router.navigate(['/childNames', args]);
+    // this.router.navigate(['/childNames', args]);
   }
 }

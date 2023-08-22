@@ -55,26 +55,25 @@
   /* margin: 18px auto 30px; */
 }
 
-.gender_tabs ul {
+.gender_tabs .gendle-box-ul {
   width: 100%;
 }
 
-ul {
+.gendle-box-ul {
   display: flex;
   padding-inline-start: 16px;
   margin-left: 12px;
 }
 
-li,
-ul {
+.gendle-box-ul {
   list-style-type: none;
 }
 
 li:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
-.gender_tabs ul li {
+.gender_tabs .gendle-box-ul li {
   width: 215px;
   height: 124px;
   padding: 16px 0;
@@ -101,7 +100,7 @@ li:hover {
   line-height: 20px;
 }
 
-.gender_tabs ul li:last-child {
+.gender_tabs .gendle-box-ul li:last-child {
   margin-right: 0;
   padding: 16px 0 0;
 }
